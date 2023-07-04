@@ -38,7 +38,7 @@ Users should be able to:
 ![](./screenshots/metric/tablet.png)
 ![](./screenshots/imperial/tablet.png)
 
-#### Desktop (Metric)
+#### Desktop
 
 ![](./screenshots/metric/desktop.png)
 ![](./screenshots/imperial/desktop.png)
