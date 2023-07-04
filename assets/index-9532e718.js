@@ -653,7 +653,7 @@ strong {
         font-size: 3.2rem;
         line-height: var(--heading-lht);
         margin-bottom: var(--web-margin-xl);
-        letter-spacing: -1px;
+        letter-spacing: -2px;
     }
 
     .col-2 {
@@ -830,6 +830,7 @@ strong {
         font-size: var(--heading-m-fsz);
         line-height: var(--heading-lht);
         margin-bottom: var(--web-margin-l);
+        letter-spacing: -1px;
     }
 
     // 768px
