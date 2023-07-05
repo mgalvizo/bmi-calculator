@@ -73,7 +73,8 @@ Error generating stack: `+l.message+`
     --borders: #d8e2e7;
     --light-blue: #d6e6fe;
     --error: #c53030;
-    --gradient: linear-gradient(315deg, #D6E6FE 0%, #D6FCFE 100%);
+    /* --gradient: linear-gradient(315deg, #D6E6FE 0%, #D6FCFE 100%); */
+    --gradient: linear-gradient(315deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%);
     --gradient-2: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
     /* HEADINGS */
     --heading-s-fsz: 2rem;
@@ -257,7 +258,6 @@ strong {
         width: 100%;
         height: var(--gradient-ht-s);
         display: block;
-        background-color: var(--light-blue);
         background-image: var(--gradient);
         border-bottom-left-radius: var(--border-rad);
         border-bottom-right-radius: var(--border-rad);
@@ -325,7 +325,6 @@ strong {
                 height: var(--gradient-ht-l);
                 max-width: var(--gradient-w-l);
                 display: block;
-                background-color: var(--light-blue);
                 background-image: var(--gradient);
                 border-bottom-left-radius: var(--border-rad);
                 border-bottom-right-radius: var(--border-rad);
@@ -771,7 +770,6 @@ strong {
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: var(--light-blue);
             background-image: var(--gradient);
             z-index: -1;
             opacity: 0.25;
